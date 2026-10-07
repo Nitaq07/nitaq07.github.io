@@ -1,6 +1,6 @@
 // عامل الخدمة: يحفظ واجهة التطبيق فقط (الأيقونات وشاشة البدء)
 // أما محتوى المنصة نفسه فيُحمَّل دائمًا من Apps Script، لذلك تظهر تحديثاتك فورًا.
-const CACHE = "upload-platform-v1";
+const CACHE = "upload-platform-v2";
 const SHELL = ["./", "index.html", "manifest.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png",
   "icons/apple-touch-icon.png", "icons/favicon-32.png"];
